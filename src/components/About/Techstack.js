@@ -1,6 +1,7 @@
 import React from "react";
-import { Card, Col, Row } from "react-bootstrap";
+import { Col, Row } from "react-bootstrap";
 import { CgCPlusPlus } from "react-icons/cg";
+import { FaChessPawn } from "react-icons/fa";
 import {
   DiJavascript1,
   DiReact,
@@ -21,6 +22,9 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiJavascript1 />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <FaChessPawn />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiNodejs />
