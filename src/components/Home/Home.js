@@ -20,8 +20,7 @@ function Home() {
                 </span>
               </h1>
 
-              <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3765742490109650"
-     crossorigin="anonymous"></script>
+              
 
               <h1 className="heading-name">
                 I'M
