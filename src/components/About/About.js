@@ -44,7 +44,6 @@ function About() {
          My <strong className="purple">ToolStack</strong>
         </h1>
         <Toolstack />
-        <iframe src='https://widgets.sociablekit.com/instagram-feed/iframe/25348299' frameborder='0' width='35%' height='400'></iframe>
         <Github />
       </Container>
     </Container>

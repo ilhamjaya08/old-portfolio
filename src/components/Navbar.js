@@ -4,6 +4,7 @@ import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 import logo from "../Assets/logo.png";
 import Button from "react-bootstrap/Button";
+import { IoShareSocialSharp } from "react-icons/io5";
 import { Link } from "react-router-dom";
 import { CgGitFork } from "react-icons/cg";
 import { ImBlog } from "react-icons/im";
@@ -66,6 +67,16 @@ function NavBar() {
                 onClick={() => updateExpanded(false)}
               >
                 <AiOutlineUser style={{ marginBottom: "2px" }} /> About
+              </Nav.Link>
+            </Nav.Item>
+
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/media"
+                onClick={() => updateExpanded(false)}
+              >
+                <IoShareSocialSharp style={{ marginBottom: "2px" }} /> Media
               </Nav.Link>
             </Nav.Item>
 
