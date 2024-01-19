@@ -1,6 +1,5 @@
 import React from "react";
 import { Button, Card } from "react-bootstrap";
-import Particle from "../Particle";
 
 function MediaCards () {
     return (

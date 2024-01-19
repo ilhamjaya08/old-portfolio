@@ -1,9 +1,13 @@
 import React from "react";
 import Particle from "../Particle";
+import { Container } from "react-bootstrap"
 
 function Experience () {
     return (
-        console.log("hello world")
+        <Container fluid className="experience-section">
+            <Particle />
+
+        </Container>
     );
 }
 

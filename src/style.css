@@ -550,6 +550,20 @@ button:focus {
 }
 
 /* --------- */
+/* Experience */
+/* --------- */
+.experience-section {
+  position: relative !important;
+  padding-top: 150px !important;
+  padding-bottom: 30px !important;
+  z-index: -1;
+  background-image: var(--image-gradient), url(./Assets/home-bg.png);
+  background-position: top center;
+  background-repeat: no-repeat;
+  color: white !important;
+}
+
+/* --------- */
 /* About */
 /* --------- */
 
