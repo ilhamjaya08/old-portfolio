@@ -563,6 +563,13 @@ button:focus {
   color: white !important;
 }
 
+.experience-heading {
+  color: white !important;
+  font-size: 2.3em !important;
+  font-weight: 500 !important;
+  padding-top: 10px !important;
+}
+
 /* --------- */
 /* About */
 /* --------- */
