@@ -3,6 +3,7 @@ import Particle from "../Particle";
 import { Container } from "react-bootstrap";
 import Techstack from "./Techstack";
 import Toolstack from "./Toolstack";
+import Github from "./Github"
 
 function Experience () {
     return (
@@ -18,6 +19,8 @@ function Experience () {
              My <strong className="strongblue">ToolStack</strong>
             </h1>
             <Toolstack />
+
+            <Github />
 
         </Container>
     );

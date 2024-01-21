@@ -8,33 +8,19 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="strongblue">Soumyajit Behera </span>
-            from <span className="strongblue"> Bhubaneswar, India.</span>
+            This is a session where I show a profile about <span className="strongblue"> myself </span>
+            I was born, raised and live until now in <span className="strongblue"> Karanganyar, Indonesia.</span>
             <br />
-            I am currently employed as a software developer at Juspay.
+            I am 16 years old and now studying at the Software Engineering Vocational School at SMKN 5 Surakarta
             <br />
-            I have completed Integrated MSc (IMSc) in Maths and Computing at BIT
-            Mesra.
+            I have dreams of becoming a Full Stack Developer in the future.
             <br />
             <br />
-            Apart from coding, some other activities that I love to do!
+            My daily life is living my daily activity and going to school, apart from that I also learn coding and practice it in several of my projects
           </p>
-          <ul>
-            <li className="about-activity">
-              <ImPointRight /> Playing Games
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Writing Tech Blogs
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Travelling
-            </li>
-          </ul>
+          
 
-          <p style={{ color: "#61bcf8" }}>
-            "Strive to build things that make a difference!"{" "}
-          </p>
-          <footer className="blockquote-footer">ilhamjaya08</footer>
+          
         </blockquote>
       </Card.Body>
     </Card>

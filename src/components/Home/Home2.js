@@ -7,7 +7,7 @@ import {
   AiOutlineTwitter,
   AiFillInstagram,
 } from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
+import { FaWhatsapp } from "react-icons/fa";
 
 function Home2() {
   return (
@@ -26,18 +26,7 @@ function Home2() {
               is when i developed my friend`s SA:MP server in 2020 using <strong>Pawn</strong> Language. Since then, I`m very curious to learning others Programming language.
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="strongblue">Node.js</b> and
-              <i>
-                <b className="strongblue">
-                  {" "}
-                  Modern Javascript Library and Frameworks
-                </b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="strongblue"> React.js and Next.js</b>
-              </i>
+              And now I am studying and deepening other programming languages ​​such as Javascript, Java, Python, etc including their frameworks
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -48,9 +37,9 @@ function Home2() {
         </Row>
         <Row>
           <Col md={12} className="home-about-social">
-            <h1>FIND ME ON</h1>
+            <h1>FIND AND INTERACT WITH ME</h1>
             <p>
-              Feel free to <span className="strongblue">connect </span>with me
+              let Come to be friends, collaborate and share with me
             </p>
             <ul className="home-about-social-links">
               <li className="social-icons">
@@ -75,12 +64,12 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/soumyajit4419/"
+                  href="https://wa.me/6289603982787"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
                 >
-                  <FaLinkedinIn />
+                  <FaWhatsapp />
                 </a>
               </li>
               <li className="social-icons">

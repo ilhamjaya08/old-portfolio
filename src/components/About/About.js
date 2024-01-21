@@ -1,7 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../Particle";
-import Github from "./Github";
 import Aboutcard from "./AboutCard";
 import laptopImg from "../../Assets/about.png";
 
@@ -20,7 +19,7 @@ function About() {
             }}
           >
             <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
-              Know Who <strong className="strongblue">I'M</strong>
+              ABOUT <strong className="strongblue">ME</strong>
             </h1>
             <Aboutcard />
           </Col>
@@ -33,8 +32,6 @@ function About() {
           </Col>
         </Row>
       
-        
-        <Github />
       </Container>
     </Container>
   );
